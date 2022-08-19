@@ -2,6 +2,7 @@ ssh-agent -s
 ssh-add connection 
 ##enter the password 1234 for the key provided 
 
+## sh-keygen -t rsa -b 4096 -C "bilalghassan77@gmail.com"
 ## eval $(ssh-agent -s)
 ## ssh-add connection
 ## more connection.pub 
